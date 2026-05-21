@@ -3,14 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prasanna Guntur — Portfolio</title>
+  <title>Prasanna Guntur — Data Scientist & AI Engineer</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <h1>Prasanna Guntur</h1>
-    <p>Data Scientist &amp; AI Engineer</p>
-  </header>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Prasanna<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hey there, I'm</p>
+      <h1 class="hero-name">Murali Lakshmi<br /><span>Prasanna Guntur</span></h1>
+      <p class="hero-tagline">Data Scientist &amp; AI Engineer building things that actually work.</p>
+      <p class="hero-sub">
+        I build LLM agents, RAG pipelines, ETL systems, and ML models —
+        turning messy data into decisions people can trust.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="mailto:gmlprasanna27@gmail.com" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-pills">
+        <span class="pill">Python</span>
+        <span class="pill">LangChain</span>
+        <span class="pill">SQL</span>
+        <span class="pill">Power BI</span>
+        <span class="pill">AWS</span>
+        <span class="pill">Scikit-learn</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">analyst_agent.py</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="t-blue">import</span> langchain</p>
+          <p><span class="t-blue">import</span> pandas <span class="t-blue">as</span> pd</p>
+          <p>&nbsp;</p>
+          <p><span class="t-green"># ask anything in plain English</span></p>
+          <p>agent = <span class="t-yellow">DataAnalystAgent</span>()</p>
+          <p>&nbsp;</p>
+          <p>result = agent.run(</p>
+          <p>&nbsp;&nbsp;<span class="t-orange">"What's the avg cost</span></p>
+          <p>&nbsp;&nbsp;<span class="t-orange"> for smokers by region?"</span></p>
+          <p>)</p>
+          <p>&nbsp;</p>
+          <p><span class="t-comment">→ auto-generates chart &amp; summary</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- TODO: about, projects, experience, contact -->
 
