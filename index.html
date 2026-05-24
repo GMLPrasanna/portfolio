@@ -144,7 +144,125 @@
     </div>
   </section>
 
-  <!-- TODO: projects, experience, contact -->
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Things I've built</h2>
+      <p class="section-sub">A few projects I'm proud of — all shipped, all real data.</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <div class="project-icon">🤖</div>
+            <div class="project-links">
+              <a href="https://github.com/mlprasanna27" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>AI-Powered Data Analyst Agent</h3>
+          <p>
+            Conversational agent that lets non-technical users run analysis on 50K+ row
+            healthcare datasets using plain English — no SQL, no Python.  Auto-generates
+            Pandas code and Matplotlib charts on the fly.
+          </p>
+          <ul class="project-bullets">
+            <li>Handles 15+ query types: aggregations, trends, correlations, chart generation</li>
+            <li>Estimated 70% reduction in manual analysis time</li>
+            <li>LangChain agent with Pandas DataFrame tool integration</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>LangChain</span><span>OpenAI API</span>
+            <span>Pandas</span><span>Streamlit</span>
+          </div>
+          <span class="project-date">Jan 2026 – May 2026</span>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <div class="project-icon">🏥</div>
+            <div class="project-links">
+              <a href="https://github.com/mlprasanna27" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Healthcare Document Intelligence — RAG Chatbot</h3>
+          <p>
+            Production RAG pipeline for Q&amp;A over 50+ healthcare policy documents.
+            Deployed on Hugging Face Spaces with sub-2-second retrieval across
+            15,000+ embedded document chunks.
+          </p>
+          <ul class="project-bullets">
+            <li>Recursive PDF chunking → OpenAI embeddings → ChromaDB vector store</li>
+            <li>Multi-turn memory + source citation for every answer</li>
+            <li>Live on Hugging Face Spaces</li>
+          </ul>
+          <div class="project-tech">
+            <span>LangChain</span><span>ChromaDB</span><span>OpenAI API</span>
+            <span>Streamlit</span><span>Hugging Face</span>
+          </div>
+          <span class="project-date">Aug – Dec 2025</span>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">⚙️</div>
+            <div class="project-links">
+              <a href="https://github.com/mlprasanna27" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Automated ETL Data Pipeline</h3>
+          <p>
+            End-to-end ETL ingesting 200K+ monthly e-commerce records from REST API
+            into PostgreSQL with 12-step data validation and a star schema for fast analytics.
+          </p>
+          <ul class="project-bullets">
+            <li>99.2% data integrity across all pipeline runs</li>
+            <li>45% query performance improvement through indexing</li>
+            <li>Power BI dashboard on top of the star schema</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>PostgreSQL</span><span>AWS S3</span>
+            <span>Pandas</span><span>Power BI</span>
+          </div>
+          <span class="project-date">Feb – May 2025</span>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">📊</div>
+            <div class="project-links">
+              <a href="https://github.com/mlprasanna27" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Healthcare Insurance Cost Prediction</h3>
+          <p>
+            ML regression pipeline on 50K+ insurance records — 89% prediction accuracy
+            identifying BMI, smoking status, age, and region as the key cost drivers.
+          </p>
+          <ul class="project-bullets">
+            <li>R² improved from 0.74 → 0.86 with 6 engineered features</li>
+            <li>30% model complexity reduction via feature importance scoring</li>
+            <li>Full EDA + feature engineering write-up in repo</li>
+          </ul>
+          <div class="project-tech">
+            <span>Scikit-learn</span><span>Pandas</span><span>Matplotlib</span>
+            <span>Seaborn</span>
+          </div>
+          <span class="project-date">Oct – Dec 2024</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TODO: experience, contact -->
 
 </body>
 </html>
