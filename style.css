@@ -302,3 +302,17 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; }
 .cert-card:hover { border-color: var(--accent); }
 .cert-issuer { font-size: 0.72rem; color: var(--accent2); font-weight: 600; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
 .cert-name { font-size: 0.85rem; color: var(--text); font-weight: 500; }
+
+/* ── CONTACT ── */
+.contact-inner { max-width: 640px; text-align: center; margin: 0 auto; }
+.contact-inner .section-title { margin-bottom: 16px; }
+.contact-inner > p { color: var(--text-muted); margin-bottom: 28px; font-size: 0.95rem; }
+.contact-inner strong { color: var(--text); }
+.contact-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
+.contact-phone { font-size: 0.88rem; color: var(--text-muted); }
+
+/* ── FOOTER ── */
+.footer {
+  padding: 28px 0; border-top: 1px solid var(--border);
+  text-align: center; font-size: 0.82rem; color: var(--text-muted);
+}
