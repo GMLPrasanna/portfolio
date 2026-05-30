@@ -23,3 +23,16 @@ document.querySelectorAll('.project-card, .timeline-item, .cert-card, .skill-gro
   el.classList.add('fade-in');
   observer.observe(el);
 });
+
+// Smooth active nav link highlight
+const sections = document.querySelectorAll('section[id]');
+const navAnchors = document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => {
+    if (window.scrollY >= s.offsetTop - 100) current = s.id;
+  });
+  navAnchors.forEach(a => {
+    a.style.color = a.getAttribute('href') === `#${current}` ? 'var(--text)' : '';
+  });
+}, { passive: true });
